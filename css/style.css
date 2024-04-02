@@ -52,11 +52,12 @@ h2{
     text-align: center;
     background-color: rgb(241, 186, 34);
     padding: 20px;
+    margin-bottom: 70px;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
-    height: 80%;
+    height: 60%;
     background-color: white;
 }
 .experience-area{
@@ -79,4 +80,9 @@ footer p{
     text-align: center;
     background-image: linear-gradient(rgba(255, 197, 7, 0.795), rgba(255, 6, 234, 0.774));
     font-size: 12px;
+}
+.hire_me_btn:hover{
+    box-shadow: 5px 5px 10px rgb(75, 75, 75);
+    padding: 15px 25px;
+    transition: .5s;
 }
